@@ -1,6 +1,6 @@
 # iOS
 
-A hundred thousand reasons why
+十万个为什么
 
 ## List
 

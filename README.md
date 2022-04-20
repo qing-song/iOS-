@@ -6,7 +6,7 @@
 - [Don’t Use Accessor Methods in Initializer Methods and dealloc](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/MemoryMgmt/Articles/mmPractical.html#//apple_ref/doc/uid/TP40004447-SW6)
 - [为什么不能在init和dealloc函数中使用accessor方法](https://cloud.tencent.com/developer/article/1143323)
 - [iOS 开发：绘制像素到屏幕](https://segmentfault.com/a/1190000000390012)
-- [原文：iOS 开发：绘制像素到屏幕](https://www.objc.io/issues/3-views/moving-pixels-onto-the-screen/)
+- iOS 开发：绘制像素到屏幕 [原文](https://www.objc.io/issues/3-views/moving-pixels-onto-the-screen/)
 
 ### 知识积累
 - [ChenYilong / iOSInterviewQuestions](https://github.com/ChenYilong/iOSInterviewQuestions)

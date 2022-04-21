@@ -20,6 +20,7 @@
 - [iOS 编译过程的原理和应用](https://www.cnblogs.com/dins/p/ios-bian-yi-guo-cheng-yuan-li-1.html)
 
 ### blogs
+- [ibireme 一只魔法师的工坊](https://blog.ibireme.com)
 - [戴铭的博客 - 星光社](https://ming1016.github.io)
 
 ### Mac

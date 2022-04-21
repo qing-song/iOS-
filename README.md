@@ -7,6 +7,7 @@
 - [为什么不能在init和dealloc函数中使用accessor方法](https://cloud.tencent.com/developer/article/1143323)
 - [iOS 开发：绘制像素到屏幕](https://segmentfault.com/a/1190000000390012)
 - iOS 开发：绘制像素到屏幕 [原文](https://www.objc.io/issues/3-views/moving-pixels-onto-the-screen/)
+- [iOS 端瘦身实践](https://ming1016.github.io/2017/06/12/gmtc-ios-slimming-practice/)
 
 ### 知识积累
 - [ChenYilong / iOSInterviewQuestions](https://github.com/ChenYilong/iOSInterviewQuestions)
@@ -17,6 +18,9 @@
 - [iOS 编译原理](https://www.shuzhiduo.com/A/kjdwk306dN/)
 - [Xcode中和symbols有关的几个设置](https://www.jianshu.com/p/11710e7ab661)
 - [iOS 编译过程的原理和应用](https://www.cnblogs.com/dins/p/ios-bian-yi-guo-cheng-yuan-li-1.html)
+
+### blogs
+- [戴铭的博客 - 星光社](https://ming1016.github.io)
 
 ### Mac
 - [Mac Tools](https://github.com/qing-song/Blog/blob/main/玩转%20Mac.md)

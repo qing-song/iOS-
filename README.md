@@ -6,8 +6,7 @@
 - [MMKV 一个性能非常高的通用 key-value 存储组件](https://github.com/Tencent/MMKV)
 - [Don’t Use Accessor Methods in Initializer Methods and dealloc](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/MemoryMgmt/Articles/mmPractical.html#//apple_ref/doc/uid/TP40004447-SW6)
 - [为什么不能在init和dealloc函数中使用accessor方法](https://cloud.tencent.com/developer/article/1143323)
-- [iOS 开发：绘制像素到屏幕](https://segmentfault.com/a/1190000000390012)
-- iOS 开发：绘制像素到屏幕 [原文](https://www.objc.io/issues/3-views/moving-pixels-onto-the-screen/)
+- [iOS 开发：绘制像素到屏幕](https://www.objc.io/issues/3-views/moving-pixels-onto-the-screen/) &nbsp; [译文](https://segmentfault.com/a/1190000000390012)
 - [iOS 端瘦身实践](https://ming1016.github.io/2017/06/12/gmtc-ios-slimming-practice/)
 
 ### 知识积累

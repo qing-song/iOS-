@@ -31,3 +31,4 @@
 
 ### Mac
 - [Mac Tools](https://github.com/qing-song/Blog/blob/main/玩转%20Mac.md)
+- [Mac效率工具](https://mp.weixin.qq.com/s/OAa8i8SF9Al1e-5DKWqv7A)

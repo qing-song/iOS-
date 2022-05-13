@@ -22,6 +22,7 @@
 ### Algorithm
 - [labuladong 的算法小抄](https://labuladong.github.io/zgnb/)
 - [《区块链背后的密码学》](https://happypeter.github.io/crypto/)
+- [小林 x 图解计算机基础](https://xiaolincoding.com)
 
 ### blogs
 - [ibireme 一只魔法师的工坊](https://blog.ibireme.com)

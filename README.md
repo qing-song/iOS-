@@ -26,6 +26,13 @@
 ### blogs
 - [ibireme 一只魔法师的工坊](https://blog.ibireme.com)
 - [戴铭的博客 - 星光社](https://ming1016.github.io)
+- [iOS 成长之路](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU2MDQzMjM3Ng==&scene=124#wechat_redirect)
+
+### 周报
+- [老司机](https://github.com/SwiftOldDriver/iOS-Weekly)
+- [摸鱼周报](https://zhangferry.com)
+- [iOS Dev Weekly](https://iosdevweekly.com)
+- [13週報](https://ethanhuang13.substack.com)
 
 ### 
 

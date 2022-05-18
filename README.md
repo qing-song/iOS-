@@ -19,6 +19,9 @@
 - [Xcode中和symbols有关的几个设置](https://www.jianshu.com/p/11710e7ab661)
 - [iOS 编译过程的原理和应用](https://www.cnblogs.com/dins/p/ios-bian-yi-guo-cheng-yuan-li-1.html)
 
+### 网络知识
+- [计算机网络知识](https://blog.csdn.net/Royalic/article/details/119985591)
+
 ### Algorithm
 - [labuladong 的算法小抄](https://labuladong.github.io/zgnb/)
 - [《区块链背后的密码学》](https://happypeter.github.io/crypto/)

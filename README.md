@@ -8,6 +8,7 @@
 - [为什么不能在init和dealloc函数中使用accessor方法](https://cloud.tencent.com/developer/article/1143323)
 - [iOS 开发：绘制像素到屏幕](https://www.objc.io/issues/3-views/moving-pixels-onto-the-screen/) &nbsp; [译文](https://segmentfault.com/a/1190000000390012)
 - [iOS 端瘦身实践](https://ming1016.github.io/2017/06/12/gmtc-ios-slimming-practice/)
+- [Swift Concurrency](Swift Concurrency)
 
 ### 知识积累
 - [ChenYilong / iOSInterviewQuestions](https://github.com/ChenYilong/iOSInterviewQuestions)

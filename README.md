@@ -27,7 +27,7 @@
 - [《区块链背后的密码学》](https://happypeter.github.io/crypto/)
 - [小林 x 图解计算机基础](https://xiaolincoding.com)
 
-### blogs
+### Blogs
 - [ibireme 一只魔法师的工坊](https://blog.ibireme.com)
 - [戴铭的博客 - 星光社](https://ming1016.github.io)
 - [iOS 成长之路](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU2MDQzMjM3Ng==&scene=124#wechat_redirect)

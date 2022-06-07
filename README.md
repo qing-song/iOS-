@@ -19,6 +19,10 @@
 - [iOS 编译原理](https://www.shuzhiduo.com/A/kjdwk306dN/)
 - [Xcode中和symbols有关的几个设置](https://www.jianshu.com/p/11710e7ab661)
 - [iOS 编译过程的原理和应用](https://www.cnblogs.com/dins/p/ios-bian-yi-guo-cheng-yuan-li-1.html)
+- [iOS 触摸事件](https://www.jianshu.com/p/c294d1bd963d?utm_campaign=hugo&utm_medium=reader_share&utm_content=note&utm_source=weixin-friends)
+
+### iOS 知识扩展
+- [iOS Resolution](http://qingmo.me/2017/03/04/FlowOfUITouch/)
 
 ### 网络知识
 - [计算机网络知识](https://blog.csdn.net/Royalic/article/details/119985591)
@@ -42,4 +46,5 @@
 ### Mac
 - [Mac Tools](https://github.com/qing-song/Blog/blob/main/玩转%20Mac.md)
 - [Mac效率工具](https://mp.weixin.qq.com/s/OAa8i8SF9Al1e-5DKWqv7A)
+
 

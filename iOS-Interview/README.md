@@ -10,7 +10,7 @@
 - 版本号校验的实现
 - 做过哪些与性能优化相关的工作？
 - [iOS 触摸事件原理](https://www.jianshu.com/p/c294d1bd963d?utm_campaign=hugo&utm_medium=reader_share&utm_content=note&utm_source=weixin-friends)
-- [weak 底层原理](x)
+- [weak 底层原理](https://github.com/qing-song/Blog/blob/main/iOS-Interview/Resource/weak%20%20底层原理.pdf)
 - AutoLayout 有没有用过
 - leading 和 left 的区别
 - Swift 和 Objective-C 混编注意事项

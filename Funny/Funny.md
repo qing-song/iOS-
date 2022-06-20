@@ -16,4 +16,6 @@
 - [iOS and iPadOS usage](https://developer.apple.com/support/app-store/)
 - [The-Ultimate-Guide-To-iPhone-Resolutions](https://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions)
 
-
+### Resource
+- [教育盒's Archiver](https://www.jiaoyuhe.com/archiver/)
+- [Z-Library 项目的一部分. 全球最大的数字图书馆](https://zh.jp1lib.org)

@@ -152,6 +152,16 @@ https://juejin.im/post/5e7ab7755188255e1a15baf9
 - 请论述调用-[UITableView reloadData]过程发生了什么
 - 问题一:一个方法中调用2次reloadData, 最终tableView刷新几次.
 - 问题二:异步线程是否会有watchdog相关的crash? 举例子说明
+- 问题五: 4次挥手少了最后一次的话会导致什么后果？
+- 问题六:如何能够统计到线上所有的 +load 方法的耗时总和？
+- 问题七: JS与OC在类方面的设计区别
+- 问题八: iOS为什采用虚拟内存, 物理内存为什么无法满足需求?
+- [UIEvent类也挺好玩的，借助UIApplication的sendEvent，可以实现界面事件的记录和回放](https://mp.weixin.qq.com/s/mljdJ18u16sFYtoOvxCHfg)
+```
+比如线上出现某些问题，让用户复现的时候，记录用户的操作.类似于咸鱼的回放
+比如滴滴的棱镜（https://mp.weixin.qq.com/s/Cc-8BMoJGacPCeHnMs6Ekw）
+
+```
 
 ### 
 - 组件化是怎样做的?
@@ -169,12 +179,33 @@ https://juejin.im/post/5e7ab7755188255e1a15baf9
 - PC、LR寄存器分别是干什么的?栈回溯原理了解吗?
 - weak原理，runtime流程，runloop原理，block原理，内存原理，汇编理解，httptcp原理，编译原理，绘制原理，图片解码原理，cocoapods原理
 - [NSTimer、CADisplayLink、dispatch_source_t 的优劣](https://mp.weixin.qq.com/s/kv7ZEtE5mgUYj_x_oD69OQ)
+```
+因为GCD定时器不依赖与NSRunLoop, GCD定时器实际上是使用了dispatch源，dispatch源监听系统内核对象并处理，通过系统级调用，更加精准。
+
+为什么要使用GCD定时器呢？而不使用NSTimer呢？
+与系统提供的NSTimer来说，NSTimer有以下的问题：
+
+NSTimer必须保证在一个活跃的Runloop里面，在主线程这是默认开启的，而在子线程是没有的。所以必须把他加入到一个Runloop里面。
+NSTimer的创建与撤销必须在同一个线程操作。
+同时因为Runloop的Mode的问题，在ScrollView滚动时，会导致NSTimer的延迟
+引起循环引用。因为会NSTimer的Target在Repeats的情况下，会对target进行引用。所以会导致释放异常。
+
+```
 - 1.  [GCD globle 最大能开启的线程数量是多少? 为什么](https://ai-chan.top/code/gcd-thread-limit/)
 - 2. SDWebImage 最大并发数量是多少?为什么
 - 3. cookie, 与普通的api鉴权有何种区别
 - 4. iOS虚拟内存如何保证没有碎片?虚拟内存的layout
 - 5. UIButton的继承链/为什么选择UIControl 而不是UIView+手势事件实现?
 - 6. 智能推荐系统 有一个新用户第一次登陆，服务端如何给他推一个个性化配置？基于什么策略去推送？
+- 比方说野指针防护，常规方案大家都知道，但防护所带来的性能损耗还是有的，有没有什么办法可以减少性能损耗，怎么做的，怎么思考的
+```
+Hook free和dealloc都行，这两个具体优缺点你在网上也能找到，这里面的性能损耗主要是两个CPU和内存，内存优化的空间不大，主要是针对CPU的
+CPU损耗主要是单表单锁的性能上限造成的
+CPU损耗主要是单表单锁的性能上限造成的
+```
+- 为啥苹果设计了autoreleasepool
+- 
+
 ### 
 - [以100道面试题构建自己的iOS开发体系](https://www.jianshu.com/p/24a9447d70f8?utm_campaign=hugo&utm_medium=reader_share&utm_content=note&utm_source=qq)
 
@@ -184,6 +215,10 @@ https://juejin.im/post/5e7ab7755188255e1a15baf9
 - 组件版本如何管理
 - [基于桥的全量方法Hook方案](http://satanwoo.github.io/2017/09/24/mainthreadchecker1/)
 - 热修复工具（JSPatch、火山引擎）
+- 怎样做网络优化的呢？
+```
+smartDNS
+```
 
 ### 网络
 - 浏览器输入网址到页面完全加载出来都发生了什么

@@ -150,6 +150,33 @@ https://juejin.im/post/5e7ab7755188255e1a15baf9
 - [iOS底层原理](https://www.cnblogs.com/gaoxiaoniu/category/1438437.html)
 - label.textcolor = [UIColor redColor];过程发生了什么
 - 请论述调用-[UITableView reloadData]过程发生了什么
+- 问题一:一个方法中调用2次reloadData, 最终tableView刷新几次.
+- 问题二:异步线程是否会有watchdog相关的crash? 举例子说明
+
+### 
+- 组件化是怎样做的?
+- 不同组件，依赖不同版本的同一个第三方库，会发生什么情况?组件之间如何通讯?
+- 启动速度怎么做优化与监控?
+- 二进制重排是怎么做的?
+- Mach-O结构是怎样的?
+- 符号表如何恢复?
+- hook C函数的时候，如何确保hook操作发生在函数调用之前?
+- RunL oop的运行过程是怎样的?
+- 如何利用RunLoop原理去监控卡顿?
+- 如何获取卡顿时的堆栈信息?
+- ARM 64的函数调用约定是怎样的?
+- 结构体作为参数，是如何在函数之间传递的?
+- PC、LR寄存器分别是干什么的?栈回溯原理了解吗?
+- weak原理，runtime流程，runloop原理，block原理，内存原理，汇编理解，httptcp原理，编译原理，绘制原理，图片解码原理，cocoapods原理
+- [NSTimer、CADisplayLink、dispatch_source_t 的优劣](https://mp.weixin.qq.com/s/kv7ZEtE5mgUYj_x_oD69OQ)
+- 1.  [GCD globle 最大能开启的线程数量是多少? 为什么](https://ai-chan.top/code/gcd-thread-limit/)
+- 2. SDWebImage 最大并发数量是多少?为什么
+- 3. cookie, 与普通的api鉴权有何种区别
+- 4. iOS虚拟内存如何保证没有碎片?虚拟内存的layout
+- 5. UIButton的继承链/为什么选择UIControl 而不是UIView+手势事件实现?
+- 6. 智能推荐系统 有一个新用户第一次登陆，服务端如何给他推一个个性化配置？基于什么策略去推送？
+### 
+- [以100道面试题构建自己的iOS开发体系](https://www.jianshu.com/p/24a9447d70f8?utm_campaign=hugo&utm_medium=reader_share&utm_content=note&utm_source=qq)
 
 ### 项目相关
 - 项目是不是组件化做的，怎么做的？

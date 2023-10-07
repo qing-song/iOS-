@@ -56,6 +56,6 @@
 
 ### [Funny](https://github.com/qing-song/Blog/blob/main/Funny/Funny.md)
 
-### [日志](https://github.com/qing-song/Blog/blob/main/Funny/Funny.md)
+### [工作日志](https://github.com/qing-song/Blog/blob/main/Funny/Funny.md)
 
 
